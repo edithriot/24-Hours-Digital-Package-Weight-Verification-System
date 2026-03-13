@@ -8,7 +8,7 @@ The project follows a standard ASIC RTL-to-Synthesis design flow using Synopsys 
 Simulation Waveform
 ![RTL Simulation](outputs/Team_EDITH_Sim.png)
 ---
-# Synthesis Result
+# GTECH Synthesis Result
 ![GTECH Output](outputs/Team_EDITH_GTECH.png)
 ---
 # Synthesized Netlist (Design Compiler - SAED 28nm/32nm)
