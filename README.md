@@ -10,10 +10,10 @@ Simulation Waveform
 # Synthesis Result
 ![GTECH Output](outputs/Team_EDITH_GTECH.png)
 
-![Synthesis Block Diagram](outputs/Team_EDITH_SYNTH_HIER_BLOCK.png)
+![Synthesis Block Diagram](outputs/TEAM_EDITH_SYNTH_HIER_BLOCK.png)
 
 # Synthesized Netlist (Design Compiler - SAED 28nm/32nm)
-![Synthesis Output](outputs/Team_SYNTH_NETLIST.png)
+![Synthesis Output](outputs/TEAM_SYNTH_NETLIST.png)
 
 # Tools Used
 1. Synopsys VCS – RTL simulation
