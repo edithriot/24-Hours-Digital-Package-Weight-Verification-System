@@ -1,0 +1,420 @@
+$date
+	Fri Mar 13 21:57:15 2026
+$end
+
+$version
+	Synopsys VCS version W-2024.09-SP2-4_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 583ea4801f2b37e9 $end
+
+
+$scope module $unit $end
+$upscope $end
+
+
+$scope module testbench $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+
+$scope module intff $end
+$var reg 1 # pkg_detect $end
+$var reg 8 $ weight_in [7:0] $end
+$var reg 1 % sort_accept $end
+$var reg 1 & sort_reject $end
+$var reg 1 ' fault $end
+$var reg 1 ( clk $end
+$upscope $end
+
+
+$scope module DUT $end
+$var reg 1 ) clk $end
+$var reg 1 * rst $end
+$var reg 1 + pkg_detect $end
+$var reg 8 , weight_in [7:0] $end
+$var reg 8 - min_weight [7:0] $end
+$var reg 8 . max_weight [7:0] $end
+$var reg 1 / sort_accept $end
+$var reg 1 0 sort_reject $end
+$var reg 1 1 fault $end
+$var reg 16 2 total_count [15:0] $end
+$var reg 16 3 accept_count [15:0] $end
+$var reg 16 4 reject_count [15:0] $end
+$var reg 1 5 within_range $end
+$var reg 1 6 under_weight $end
+$var reg 1 7 over_weight $end
+$var reg 1 8 accept $end
+$var reg 1 9 reject $end
+
+$scope module cmp $end
+$var reg 8 : weight_in [7:0] $end
+$var reg 8 ; min_weight [7:0] $end
+$var reg 8 < max_weight [7:0] $end
+$var reg 1 = within_range $end
+$var reg 1 > under_weight $end
+$var reg 1 ? over_weight $end
+$upscope $end
+
+
+$scope module ctrl $end
+$var reg 1 @ clk $end
+$var reg 1 A rst $end
+$var reg 1 B within_range $end
+$var reg 1 C accept $end
+$var reg 1 D reject $end
+$upscope $end
+
+
+$scope module sort_ctrl $end
+$var reg 1 E accept $end
+$var reg 1 F reject $end
+$var reg 1 G sort_accept $end
+$var reg 1 H sort_reject $end
+$upscope $end
+
+
+$scope module counter $end
+$var reg 1 I clk $end
+$var reg 1 J rst $end
+$var reg 1 K pkg_detect $end
+$var reg 1 L accept $end
+$var reg 1 M reject $end
+$var reg 16 N total_count [15:0] $end
+$var reg 16 O accept_count [15:0] $end
+$var reg 16 P reject_count [15:0] $end
+$upscope $end
+
+
+$scope module fault_mod $end
+$var reg 8 Q weight_in [7:0] $end
+$var reg 1 R under_weight $end
+$var reg 1 S over_weight $end
+$var reg 1 T pkg_detect $end
+$var reg 1 U fault $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+1!
+1"
+b00101000 $
+08
+0?
+0>
+1=
+0L
+0K
+0M
+1J
+0C
+0D
+1A
+1B
+1U
+0S
+0T
+0R
+07
+09
+0E
+0F
+0G
+0H
+06
+15
+b0000000000000000 3
+b01100100 <
+b00001010 ;
+b00101000 :
+b0000000000000000 O
+b0000000000000000 P
+b0000000000000000 N
+b00101000 Q
+b01100100 .
+b00001010 -
+b0000000000000000 4
+b0000000000000000 2
+b00101000 ,
+1(
+1)
+1@
+1I
+0/
+0%
+00
+0&
+11
+1'
+1*
+0+
+0#
+$end
+#10
+0!
+0(
+0)
+0@
+0I
+0"
+0*
+0J
+0A
+b10111000 $
+b10111000 ,
+b10111000 Q
+b10111000 :
+1#
+1+
+1T
+1K
+0U
+01
+0'
+1?
+17
+1S
+0=
+05
+0B
+1U
+11
+1'
+#20
+1!
+1(
+1)
+1@
+1I
+1D
+19
+1F
+1M
+b0000000000000001 N
+b0000000000000001 2
+1H
+10
+1&
+b01011100 $
+b01011100 ,
+b01011100 Q
+b01011100 :
+0#
+0+
+0T
+0K
+0?
+07
+0S
+1=
+15
+1B
+#30
+0!
+0(
+0)
+0@
+0I
+b01000111 $
+b01000111 ,
+b01000111 Q
+b01000111 :
+1#
+1+
+1T
+1K
+0U
+01
+0'
+#40
+1!
+1(
+1)
+1@
+1I
+1C
+18
+1E
+1L
+0D
+09
+0F
+0M
+b0000000000000010 N
+b0000000000000010 2
+b0000000000000001 P
+b0000000000000001 4
+0H
+00
+0&
+1G
+1/
+1%
+b11000010 $
+b11000010 ,
+b11000010 Q
+b11000010 :
+0#
+0+
+0T
+0K
+1U
+11
+1'
+1?
+17
+1S
+0=
+05
+0B
+#50
+0!
+0(
+0)
+0@
+0I
+b11010010 $
+b11010010 ,
+b11010010 Q
+b11010010 :
+1#
+1+
+1T
+1K
+#60
+1!
+1(
+1)
+1@
+1I
+0C
+08
+0E
+0L
+1D
+19
+1F
+1M
+b0000000000000011 N
+b0000000000000011 2
+b0000000000000001 O
+b0000000000000001 3
+1H
+10
+1&
+0G
+0/
+0%
+b11000101 $
+b11000101 ,
+b11000101 Q
+b11000101 :
+0#
+0+
+0T
+0K
+#70
+0!
+0(
+0)
+0@
+0I
+b00111001 $
+b00111001 ,
+b00111001 Q
+b00111001 :
+0?
+07
+0S
+1=
+15
+1B
+#80
+1!
+1(
+1)
+1@
+1I
+1C
+18
+1E
+1L
+0D
+09
+0F
+0M
+0H
+00
+0&
+1G
+1/
+1%
+b10100010 $
+b10100010 ,
+b10100010 Q
+b10100010 :
+1#
+1+
+1T
+1K
+0U
+01
+0'
+1?
+17
+1S
+0=
+05
+0B
+1U
+11
+1'
+#90
+0!
+0(
+0)
+0@
+0I
+b00000000 $
+b00000000 ,
+b00000000 Q
+b00000000 :
+0?
+07
+0S
+1>
+16
+1R
+#100
+1!
+1(
+1)
+1@
+1I
+0C
+08
+0E
+0L
+1D
+19
+1F
+1M
+b0000000000000100 N
+b0000000000000100 2
+b0000000000000010 O
+b0000000000000010 3
+1H
+10
+1&
+0G
+0/
+0%

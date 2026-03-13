@@ -1,0 +1,59 @@
+Command: vcs -sverilog -full64 -debug_access+all testbench.sv -l Team_ED1.log
+                         Chronologic VCS (TM)
+      Version W-2024.09-SP2-4_Full64 -- Fri Mar 13 21:57:06 2026
+
+                    Copyright (c) 1991 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'testbench.sv'
+Parsing included file 'main.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'tx.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'scb.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mon.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'drv.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'gen.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'env.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'int.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'test.sv'.
+Back to file 'testbench.sv'.
+Top Level Modules:
+       testbench
+No TimeScale specified
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+recompiling module testbench
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/home/sreenivasulu5137/synopsys/vcs/W-2024.09-SP2-4/linux64/lib -L/home/sreenivasulu5137/synopsys/vcs/W-2024.09-SP2-4/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _50938_archive_1.so _prev_archive_1.so \
+_cuarc0.so   SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -ldistsimclient \
+-lsimprofile -luclinative /home/sreenivasulu5137/synopsys/vcs/W-2024.09-SP2-4/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive          /home/sreenivasulu5137/synopsys/vcs/W-2024.09-SP2-4/linux64/lib/vcs_save_restore_new.o \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .159 seconds to compile + .151 seconds to elab + .098 seconds to link
