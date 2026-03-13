@@ -28,10 +28,11 @@ Target Technology: SAED 28nm / 32nm Standard Cell Library
 ---
 # Team Members
 
-| Name | Role | Program |
-|-----|-----|-----|
-| Karthiswaran S | Hardware Design | B.E Electronics Engineering (VLSI Design and Technology) |
-| Sathiya Jeeva M | Verification | B.E Electronics Engineering (VLSI Design and Technology) |
-| TamilRaja S B | RTL Design & Synthesis | B.E Electronics Engineering (VLSI Design and Technology) |
+| Name |
+|-----|
+| Karthiswaran S | 
+| Sathiya Jeeva M  |
+| TamilRaja S B  |
 
+B.E Electronics Engineering (VLSI Design and Technology)
 K.S. Rangasamy College of Technology (Autonomous)
