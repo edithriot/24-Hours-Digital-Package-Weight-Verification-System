@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : weight_verification_top
+Version: W-2024.09-SP5-3
+Date   : Fri Mar 13 22:25:38 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /home/sreenivasulu5137/VLSI/models/saed32rvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+weight_verification_top
+                       8000              saed32rvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 143.2452 uW   (98%)
+  Net Switching Power  =   3.4323 uW    (2%)
+                         ---------
+Total Dynamic Power    = 146.6775 uW  (100%)
+
+Cell Leakage Power     =  34.9458 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network    137.5106            0.0000            0.0000          137.5106  (  75.71%)  i
+register           1.5550            0.5583        2.3222e+07           25.3358  (  13.95%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      4.1796            2.8740        1.1723e+07           18.7770  (  10.34%)
+--------------------------------------------------------------------------------------------------
+Total            143.2452 uW         3.4323 uW     3.4946e+07 pW       181.6233 uW
+1

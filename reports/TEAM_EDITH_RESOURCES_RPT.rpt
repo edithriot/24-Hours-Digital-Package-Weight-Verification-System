@@ -1,0 +1,35 @@
+ 
+****************************************
+Report : resources
+Design : weight_verification_top
+Version: W-2024.09-SP5-3
+Date   : Fri Mar 13 22:25:38 2026
+****************************************
+
+
+Resource Report for this hierarchy in file
+        /home/sreenivasulu5137/VLSI/rtl/main.sv
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| lt_x_1         | DW_cmp         | width=8    | cmp/lt_18 (main.sv:18)     |
+| gt_x_2         | DW_cmp         | width=8    | cmp/gt_24 (main.sv:24)     |
+| add_x_8        | DW01_inc       | width=16   | counter/add_146 (main.sv:146) |
+| add_x_9        | DW01_inc       | width=16   | counter/add_149 (main.sv:149) |
+| add_x_10       | DW01_inc       | width=16   | counter/add_152 (main.sv:152) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| lt_x_1             | DW_cmp           | apparch (area)     |                |
+| gt_x_2             | DW_cmp           | apparch (area)     |                |
+| add_x_8            | DW01_inc         | apparch (area)     |                |
+| add_x_9            | DW01_inc         | apparch (area)     |                |
+| add_x_10           | DW01_inc         | apparch (area)     |                |
+===============================================================================
+
+1

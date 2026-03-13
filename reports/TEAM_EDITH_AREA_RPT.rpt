@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : weight_verification_top
+Version: W-2024.09-SP5-3
+Date   : Fri Mar 13 22:25:38 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /home/sreenivasulu5137/VLSI/models/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                           78
+Number of nets:                           254
+Number of cells:                          221
+Number of combinational cells:            171
+Number of sequential cells:                50
+Number of macros/black boxes:               0
+Number of buf/inv:                         50
+Number of references:                      20
+
+Combinational area:                345.889986
+Buf/Inv area:                       66.077440
+Noncombinational area:             355.801606
+Macro/Black Box area:                0.000000
+Net Interconnect area:             157.897592
+
+Total cell area:                   701.691592
+Total area:                        859.589184
+1
