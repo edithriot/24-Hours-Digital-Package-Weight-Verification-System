@@ -1,47 +1,53 @@
-set_app_var search_path /home/sreenivasulu5137/VLSI/models
+START
 
-set_app_var target_library "/home/sreenivasulu5137/VLSI/models/saed32rvt_ss0p95v125c.db"
+1. Define where the tool should look to find technology and support files.
 
-set_app_var synthetic_library dw_foundation.sldb
+2. Specify the main technology database that represents the standard cells 
+   used for implementation.
 
-set_app_var link_library "\ /home/sreenivasulu5137/VLSI/models/saed32rvt_ss0p95v125c.db \ $synthetic_library"
+3. Load the auxiliary component library that provides arithmetic and 
+   pre-built functional blocks.
 
-analyze -library WORK -format sverilog /home/sreenivasulu5137/VLSI/rtl/main.sv
+4. Combine the technology database and auxiliary library so the tool can 
+   resolve all components used in the design.
 
-read_file -format sverilog /home/sreenivasulu5137/VLSI/rtl/main.sv
+5. Import the hardware description of the design written in a high-level 
+   hardware language.
 
-elaborate weight_verification_top
+6. Parse the imported description and prepare it for building the internal 
+   representation.
 
-current_design weight_verification_top
+7. Construct the hierarchical representation of the top module called 
+   "weight_verification_top".
 
-link
+8. Select this module as the active design to be processed.
 
-check_design
+9. Resolve connections and dependencies between all components and libraries.
 
-read_sdc /home/sreenivasulu5137/VLSI/models/Team_EDITH.sdc
+10. Perform a structural validation to ensure the design is correct and 
+    contains no structural issues.
 
-set_max_area 0.0
+11. Load the timing and constraint specifications that define clock behavior, 
+    delays, and operating limits.
 
-compile_ultra
+12. Indicate that the design should focus on minimizing silicon usage.
 
-report_area > ../reports/TEAM_EDITH_AREA_RPT.rpt
+13. Transform the high-level design description into a gate-level 
+    implementation optimized for performance, power, and area.
 
-report_design > ../reports/TEAM_EDITH_DESIGN_RPT.rpt
+14. Generate multiple analysis summaries including:
+      - silicon usage
+      - overall design information
+      - individual component usage
+      - quality metrics
+      - hardware resource utilization
+      - timing behavior
+      - power estimation
 
-report_cell > ../reports/TEAM_EDITH_CELL_RPT.rpt
+15. Export the constraint specifications used for the optimized design.
 
-report_qor > ../reports/TEAM_EDITH_QOR_RPT.rpt
+16. Produce a hierarchical gate-level hardware description of the optimized design.
 
-report_resources  > ../reports/TEAM_EDITH_RESOURCES_RPT.rpt
+17. Save an internal tool database version of the optimized design for later reuse.
 
-report_timing  > ../reports/TEAM_EDITH_TIMING_RPT.rpt
-
-report_power  > ../reports/TEAM_EDITH_PWR_RPT.rpt
-
-write_sdc TEAM_EDITH_SYNTH.sdc
-
-write_file -format verilog -hierarchy -output TEAM_EDITH_SYNTH.v
-
-write -format ddc -hierarchy -output TEAM_EDITH_SYNTH.ddc
-
-
+END
